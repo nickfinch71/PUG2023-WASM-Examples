@@ -7,3 +7,6 @@ Place the contents in a directory and add directory to PATH environmental variab
 KVP project available from https://github.com/technosophos/all-kv-functions
 Sentiment Analysis project is available from https://github.com/fermyon/ai-examples/tree/main/sentiment-analysis-ts and stick in a folder (for example d:\workdir\llama\)
 Sentiment Analysis project requires a local copy of the LLM. Download from https://huggingface.co/meta-llama. File should be renamed llama2-chat and placed in the dir [sentiment analysis project root]\.spin\ai-models
+
+More details on these fermyon examples available at https://developer.fermyon.com/hub
+
