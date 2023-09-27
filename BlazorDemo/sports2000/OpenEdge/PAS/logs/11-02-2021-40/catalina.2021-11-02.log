@@ -1,0 +1,66 @@
+2021-11-02T15:45:44.701Z INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-02T15:45:44.773Z INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T15:45:44.775Z INFO  [main] org.apache.catalina.startup.Catalina.load - Server initialization in [1558] milliseconds
+2021-11-02T15:45:44.778Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartupScripts - Running startup scripts
+2021-11-02T15:45:44.883Z INFO  [main] o.a.catalina.core.StandardService.startInternal - Starting service [Catalina]
+2021-11-02T15:45:44.884Z INFO  [main] o.a.catalina.core.StandardEngine.startInternal - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-11-02T15:45:45.694Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\manager.war]
+2021-11-02T15:45:46.962Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\manager.war] has finished in [1,267] ms
+2021-11-02T15:45:46.979Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oedbg.war]
+2021-11-02T15:45:47.804Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oedbg.war] has finished in [825] ms
+2021-11-02T15:45:47.808Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oemanager.war]
+2021-11-02T15:45:57.298Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oemanager.war] has finished in [9,490] ms
+2021-11-02T15:45:57.303Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb.war]
+2021-11-02T15:46:08.931Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb.war] has finished in [11,628] ms
+2021-11-02T15:46:08.934Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deploying web application directory [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT]
+2021-11-02T15:46:09.042Z ERROR [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Error deploying web application directory [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT]
+java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:706)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1184)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1925)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1094)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1611)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [static]
+	at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3210)
+	at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+	at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1335)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5077)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 27 common frames omitted
+2021-11-02T15:46:09.044Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deployment of web application directory [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT] has finished in [110] ms
+2021-11-02T15:46:09.058Z INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["http-nio-8080"]
+2021-11-02T15:46:09.096Z INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T15:46:09.632Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartedScripts - Running started scripts
+2021-11-02T15:46:09.633Z INFO  [main] c.p.a.s.l.OeLifecycleListener.startHealthCollector - Health collector disabled
+2021-11-02T15:46:09.635Z INFO  [main] org.apache.catalina.startup.Catalina.start - Server startup in [24858] milliseconds

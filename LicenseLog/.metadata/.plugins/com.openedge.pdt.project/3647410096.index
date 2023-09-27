@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<libraryinfo path="D:/Work/pug/LicenseLog/LicenseUsageLog" type="PathEntry" ModificationStamp="1695204003297" FullName="LicenseUsageLog" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="">
+			<procedure name="RunForm1" SourceFilePath="D:/Work/pug/LicenseLog/LicenseUsageLog/RunForm1.p" RfilePath="D:/Work/pug/LicenseLog/LicenseUsageLog/RunForm1.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+		<pacakage name="">
+			<class name="Form1" SourceFilePath="D:/Work/pug/LicenseLog/LicenseUsageLog/Form1.cls" RfilePath="D:/Work/pug/LicenseLog/LicenseUsageLog/Form1.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Windows.Form" InterfaceNames="" ImportedPackages=""></class>
+			<class name="SentimentAnalysis" SourceFilePath="D:/Work/pug/LicenseLog/LicenseUsageLog/SentimentAnalysis.cls" RfilePath="D:/Work/pug/LicenseLog/LicenseUsageLog/SentimentAnalysis.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="Progress.Windows.Form" InterfaceNames="" ImportedPackages=""></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

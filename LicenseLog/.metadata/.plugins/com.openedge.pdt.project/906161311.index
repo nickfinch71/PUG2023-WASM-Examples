@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<libraryinfo path="D:/Progress/OpenEdge/gui/adexml.pl" type="ProcedureLibrary" ModificationStamp="1694419990280" FullName="adexml.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="adexml">
+			<procedure name="_sorcedt" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="42" RelativePath="adexml"></procedure>
+			<procedure name="_winexit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="85104" RelativePath="adexml"></procedure>
+			<procedure name="_xchoice" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="103299" RelativePath="adexml"></procedure>
+			<procedure name="_xmlfile" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="117474" RelativePath="adexml"></procedure>
+			<procedure name="_xmlmap" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="257413" RelativePath="adexml"></procedure>
+			<procedure name="_xmlpref" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="423982" RelativePath="adexml"></procedure>
+			<procedure name="_xmlprops" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="434967" RelativePath="adexml"></procedure>
+			<procedure name="_xmlview" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adexml.pl" isInsidePL="true" Offset="522021" RelativePath="adexml"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

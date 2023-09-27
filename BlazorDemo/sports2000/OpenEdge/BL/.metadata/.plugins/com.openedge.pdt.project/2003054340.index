@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/WorkDir/sports2000/OpenEdge/BL/sports2000RestWeb/PASOEContent/WEB-INF/openedge" type="PathEntry" ModificationStamp="1635156061057" FullName="openedge" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+	</procedures>
+	<classes>
+		<pacakage name="">
+			<class name="sports2000RestWebHandler" SourceFilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000RestWeb/PASOEContent/WEB-INF/openedge/sports2000RestWebHandler.cls" RfilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000RestWeb/PASOEContent/WEB-INF/openedge/sports2000RestWebHandler.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.Web.WebHandler" InterfaceNames="" ImportedPackages=""></class>
+			<class name="rwCustomerHandler" SourceFilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000RestWeb/PASOEContent/WEB-INF/openedge/rwCustomerHandler.cls" RfilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000RestWeb/PASOEContent/WEB-INF/openedge/rwCustomerHandler.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.Web.WebHandler" InterfaceNames="" ImportedPackages=""></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

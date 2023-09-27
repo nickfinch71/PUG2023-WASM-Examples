@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/oeExplorerConnection.xsd">
+    <oeExplorerConnection identifier="Localhost">
+        <name>Localhost</name>
+        <host>localhost</host>
+        <port>9090</port>
+        <user>admin</user>
+        <password>LdXmDondcIgWXz4gVkcKbA==</password>
+        <url>http://localhost:9090</url>
+        <useSecureConnection>false</useSecureConnection>
+        <OEVersion>12.4</OEVersion>
+    </oeExplorerConnection>
+</root>

@@ -1,0 +1,46 @@
+=====================================================
+PROGRESS stack trace as of Fri Nov 26 13:04:12 2021
+=====================================================
+
+Progress OpenEdge Release 12.4 build 1208 on WINNT 
+
+Startup parameters:
+-pf C:\Progress\OpenEdge\startup.pf,-cpinternal ISO8859-1,-cpstream ISO8859-1,-cpcoll Basic,-cpcase Basic,-d dmy,-numsep 44,-numdec 46,(end .pf),-logginglevel 2,-logfile C:\WorkDir\sports2000\OpenEdge\PAS/logs/sports2000.agent.{yyyy-mm-dd}.log,-uburl AppServerDC://0.0.0.0:49783/,-logname sports2000,-logentrytypes ASPlumbing,DB.Connects,-ubpropfile C:\WorkDir\sports2000\OpenEdge\PAS\conf\openedge.properties,-ASID 1,-ipver IPv4,-sectok XXXXXXXXXXXXXXXXXXXXXX,-T C:\WorkDir\sports2000\OpenEdge\PAS/temp,-db C:\WorkDir\sports2000\OpenEdge\db\sports2000.db
+
+Exception code: C0000005 ACCESS_VIOLATION
+Fault address:  00007FF75EEE8C1C 01:0000000000727C1C C:\Progress\OpenEdge\bin\_mproapsv.exe
+
+Registers:
+RAX:0000024717F391F0
+RBX:0000000000000006
+RCX:0000000000000000
+RDX:0000000000000018
+RSI:0000000080000006
+RDI:0000000000000009
+R8 :0000000000000000
+R9 :0000000000000000
+R10:0000000000000000
+R11:0000000000000246
+R12:0000000000000000
+R13:0000000000000000
+R14:0000000000000000
+R15:0000000000000000
+CS:RIP:0033:00007FF75EEE8C1C
+SS:RSP:002B:000000F0B49FFB78  RBP:0000000000000000
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+
+
+Debugging dll: C:\Progress\OpenEdge\bin\DBGHELP.DLL
+Symbol Path:
+ C:\Progress\OpenEdge\bin;C:\Progress\OpenEdge\pdbfiles
+
+
+Call Stack:
+Address           Frame
+00007FF75EEE8C1C  000000F0B49FFB70  utRealsoftctlc+1C
+00007FF75E928446  000000F0B49FFBA0  ncasr+176
+00007FFBDC49BA33  000000F0B49FFC90  CtrlRoutine+C3
+00007FFBDD1F7034  000000F0B49FFCC0  BaseThreadInitThunk+14
+00007FFBDE822651  000000F0B49FFD40  RtlUserThreadStart+21
+

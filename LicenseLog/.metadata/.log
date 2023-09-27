@@ -1,0 +1,9 @@
+!SESSION 2023-09-10 17:45:20.415 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2023-09-10 17:47:40.098
+!MESSAGE com.openedge.pdt.text.views.ClassBrowserView: Deprecated relationship "fast" should be converted to "stack".

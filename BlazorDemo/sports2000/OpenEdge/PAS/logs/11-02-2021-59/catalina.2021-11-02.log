@@ -1,0 +1,23 @@
+2021-11-02T17:43:26.869Z INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-02T17:43:26.925Z INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T17:43:26.929Z INFO  [main] org.apache.catalina.startup.Catalina.load - Server initialization in [1602] milliseconds
+2021-11-02T17:43:26.936Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartupScripts - Running startup scripts
+2021-11-02T17:43:27.031Z INFO  [main] o.a.catalina.core.StandardService.startInternal - Starting service [Catalina]
+2021-11-02T17:43:27.032Z INFO  [main] o.a.catalina.core.StandardEngine.startInternal - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-11-02T17:43:27.933Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\manager.war]
+2021-11-02T17:43:29.243Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\manager.war] has finished in [1,308] ms
+2021-11-02T17:43:29.253Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oedbg.war]
+2021-11-02T17:43:30.176Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oedbg.war] has finished in [923] ms
+2021-11-02T17:43:30.180Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oemanager.war]
+2021-11-02T17:43:39.500Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oemanager.war] has finished in [9,320] ms
+2021-11-02T17:43:39.514Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb.war]
+2021-11-02T17:43:51.778Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb.war] has finished in [12,264] ms
+2021-11-02T17:43:51.782Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deploying web application directory [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT]
+2021-11-02T17:43:52.638Z ERROR [Catalina-utility-1] o.a.catalina.core.StandardContext.startInternal - One or more Filters failed to start. Full details will be found in the appropriate container log file
+2021-11-02T17:43:52.639Z ERROR [Catalina-utility-1] o.a.catalina.core.StandardContext.startInternal - Context [] startup failed due to previous errors
+2021-11-02T17:43:52.750Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deployment of web application directory [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT] has finished in [968] ms
+2021-11-02T17:43:52.764Z INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["http-nio-8080"]
+2021-11-02T17:43:52.776Z INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T17:43:53.584Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartedScripts - Running started scripts
+2021-11-02T17:43:53.585Z INFO  [main] c.p.a.s.l.OeLifecycleListener.startHealthCollector - Health collector disabled
+2021-11-02T17:43:53.586Z INFO  [main] org.apache.catalina.startup.Catalina.start - Server startup in [26652] milliseconds

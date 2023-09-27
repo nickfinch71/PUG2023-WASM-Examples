@@ -1,0 +1,50 @@
+
+**  ProxyGen, Progress Version 12.4
+
+** Checking for existence of .r files ...
+
+** Processing non-persistent procedures ...
+
+** Processing: C:\WorkDir\sports2000\OpenEdge\BL\sports2000\AppServer\GetCustomers.r ...
+   -- Parsing r-code ...
+       MAIN C:\WorkDir\sports2000\OpenEdge\BL\sports2000\AppServer\GetCustomers.p 
+          OUTPUT dsCustomer DATASET
+       DATASET: dsCustomer
+          BUFFERS: ttCustomer
+       TABLE: ttCustomer
+          CustNum INTEGER
+          Name CHARACTER
+          Address CHARACTER
+          Address2 CHARACTER
+          City CHARACTER
+          State CHARACTER
+          Country CHARACTER
+          Phone CHARACTER
+          Contact CHARACTER
+          SalesRep CHARACTER
+          Comments CHARACTER
+          CreditLimit DECIMAL
+          Balance DECIMAL
+          Terms CHARACTER
+          Discount INTEGER
+          PostalCode CHARACTER
+          Fax CHARACTER
+          EmailAddress CHARACTER
+   -- No customizations; Validation not necessary
+
+** Processing procedure objects ...
+
+** Checking method and parameter names ...
+
+** Generating .NET proxies ...
+   Creating AssemblyInfo.cs ...
+   Creating dsCustomerSchema.cs ...
+   Creating sports2000proxy.cs ...
+   Creating strongly typed dataset classes ...
+       C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\MSBuild.exe /restore -p:outdir=C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\ dsCustomer.csproj
+       C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\dsCustomer.exe
+       C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\xsd.exe /d /n:sports2000crud.StrongTypesNS C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\dsCustomer.xsd 
+   Compiling .NET proxies and creating .dll ...
+       C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\MSBuild.exe /restore -p:outdir=C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\ sports2000proxy.csproj
+
+** Generation complete

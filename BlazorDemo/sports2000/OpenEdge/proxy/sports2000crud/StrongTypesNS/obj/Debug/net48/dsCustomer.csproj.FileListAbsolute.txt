@@ -1,0 +1,14 @@
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\obj\Debug\net48\dsCustomer.csproj.AssemblyReference.cache
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\obj\Debug\net48\dsCustomer.csproj.SuggestedBindingRedirects.cache
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\obj\Debug\net48\dsCustomer.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\obj\Debug\net48\dsCustomer.csproj.CoreCompileInputs.cache
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\obj\Debug\net48\dsCustomer.csproj.CopyComplete
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\dsCustomer.exe.config
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\obj\Debug\net48\dsCustomer.exe
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\obj\Debug\net48\dsCustomer.pdb
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\dsCustomer.exe
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\dsCustomer.pdb
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\System.Configuration.ConfigurationManager.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\System.Security.AccessControl.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\System.Security.Permissions.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\StrongTypesNS\System.Security.Principal.Windows.dll

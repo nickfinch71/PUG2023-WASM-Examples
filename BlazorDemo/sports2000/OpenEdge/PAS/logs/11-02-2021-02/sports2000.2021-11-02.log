@@ -1,0 +1,15 @@
+2021-11-02T17:18:09.417Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@2e99a720 to: org.apache.camel.support.SimpleTypeConverter@13100e33 
+2021-11-02T17:18:11.497Z WARN  [Catalina-utility-1] - c.p.appserv.adapters.rest.Management - Property file C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2021-11-02T17:18:11.543Z WARN  [Catalina-utility-1] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2021-11-02T17:18:13.185Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@347cc05 to: org.apache.camel.support.SimpleTypeConverter@70bdb4bc 
+2021-11-02T17:18:14.291Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-11-02T17:18:14.292Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-11-02T17:18:15.165Z WARN  [Catalina-utility-1] - c.p.appserv.IdleResourceWatchdog - Idle resource watchdog disabled 
+2021-11-02T17:18:17.914Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@17f5be80 to: org.apache.camel.support.SimpleTypeConverter@19de315b 
+2021-11-02T17:18:18.052Z WARN  [Catalina-utility-1] - c.p.appserv.adapters.rest.Management - Property file C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2021-11-02T17:18:18.055Z WARN  [Catalina-utility-1] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2021-11-02T17:18:18.388Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@4934543f to: org.apache.camel.support.SimpleTypeConverter@260f9554 
+2021-11-02T17:18:18.492Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-11-02T17:18:18.493Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-11-02T17:18:19.595Z WARN  [Catalina-utility-1] - o.a.c.c.s.CamelHttpTransportServlet - Duplicate ServletName detected: CamelSOAPServlet. Existing: CamelHttpTransportServlet[name=CamelSOAPServlet] This: CamelHttpTransportServlet[name=CamelSOAPServlet]. Its advised to use unique ServletName per Camel application. 
+2021-11-02T17:20:53.971Z WARN  [Nd9q2Pu0SGeqnQellmUfEQ-agent-watchdog] - c.p.appserv.PoolMgt.AgentWatchdog - AgentWatchdog(Nd9q2Pu0SGeqnQellmUfEQ) : agent nGQx0x0wQzOCVG7IU7DB2A PID= 3292 has terminated.  

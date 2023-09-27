@@ -1,0 +1,20 @@
+2021-11-02T14:35:02.329Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:35:02.857Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:35:02.919Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-11-02T14:35:10.655Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-11-02T14:35:13.632Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:35:13.893Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-11-02T14:35:24.815Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-11-02T14:35:27.131Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:35:27.211Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-11-02T14:35:29.671Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-11-02T14:35:53.717Z INFO  [thd-4] o.a.catalina.core.ApplicationContext.log - Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+2021-11-02T14:35:53.719Z INFO  [thd-4] o.a.catalina.core.ApplicationContext.log - Manager: init: Global resources are available
+2021-11-02T14:35:53.722Z INFO  [thd-4] o.a.catalina.core.ApplicationContext.log - Manager: list: Listing contexts for virtual host 'localhost'
+2021-11-02T15:44:51.105Z INFO  [thd-9] o.a.catalina.core.ApplicationContext.log - Manager: list: Listing contexts for virtual host 'localhost'
+2021-11-02T15:44:55.801Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Destroying Spring FrameworkServlet 'mvc-dispatch'
+2021-11-02T15:44:55.978Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Closing Spring root WebApplicationContext
+2021-11-02T15:44:56.021Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Destroying Spring FrameworkServlet 'mvc-dispatch'
+2021-11-02T15:44:56.074Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Closing Spring root WebApplicationContext
+2021-11-02T15:44:56.127Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Destroying Spring FrameworkServlet 'mvc-dispatch'
+2021-11-02T15:44:56.132Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Closing Spring root WebApplicationContext

@@ -1,0 +1,55 @@
+2021-11-02T17:02:56.598+0000 010088 000464 1 AS-Aux-0 mtapsv:-:? MSAS Agent Starting Up -- Progress OpenEdge Release 12.4  build 1208.
+2021-11-02T17:02:56.598+0000 010088 000464 1 AS-Aux-0 mtapsv:-:? -- Logging level set to = 2
+2021-11-02T17:02:56.598+0000 010088 000464 1 AS-Aux-0 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:56.598+0000 010088 000464 2 AS-Aux-0 mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:56.610+0000 010088 000464 2 AS-Aux-0 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:56.641+0000 010088 000464 1 AS-Listener mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:56.641+0000 010088 000464 2 AS-Listener mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:56.641+0000 010088 000464 2 AS-Listener mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:56.643+0000 010088 000464 1 AS-Listener mtapsv:-:? MSAS Spawning New Worker Thread. Number: 4
+2021-11-02T17:02:56.649+0000 010088 010232 1 AS-ResourceMgr mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:56.649+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:56.649+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:56.732+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? MSAS Incremented connection count for sports2000 (sports2000): 1
+2021-11-02T17:02:56.846+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? CONN           Database sports2000 Options:  (12699)
+2021-11-02T17:02:56.849+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? CONN           Connected to database sports2000, user number 5. (9543)
+2021-11-02T17:02:56.852+0000 010088 005328 1 AS-Admin mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:56.852+0000 010088 005328 2 AS-Admin mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:56.853+0000 010088 005328 2 AS-Admin mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:56.919+0000 010088 009512 1 AS-4 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:56.919+0000 010088 009512 2 AS-4 mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:56.919+0000 010088 009512 2 AS-4 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:56.984+0000 010088 009512 2 AS-4 ?:?:? MSAS Incremented connection count for sports2000 (sports2000): 2
+2021-11-02T17:02:56.986+0000 010088 009512 2 AS-4 ?:?:? CONN           Database sports2000 Options:  (12699)
+2021-11-02T17:02:56.988+0000 010088 009512 2 AS-4 ?:?:? CONN           Connected to database sports2000, user number 6. (9543)
+2021-11-02T17:02:56.989+0000 010088 009512 1 AS-4 ?:?:? MSAS Successfully ran session startup procedure.
+2021-11-02T17:02:56.990+0000 010088 010232 1 AS-ResourceMgr mtapsv:-:? MSAS Spawning New Worker Thread. Number: 5
+2021-11-02T17:02:56.990+0000 010088 005328 2 AS-Admin mtapsv:-:? AS Application Server connected with connection id: . (8358)
+2021-11-02T17:02:56.996+0000 010088 009512 1 AS-Aux-5 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:56.996+0000 010088 009512 2 AS-Aux-5 mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:56.996+0000 010088 009512 2 AS-Aux-5 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:57.000+0000 010088 009512 1 AS-7 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:57.000+0000 010088 009512 2 AS-7 mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:57.000+0000 010088 009512 2 AS-7 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:57.001+0000 010088 008264 1 AS-Aux-6 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2021-11-02T17:02:57.001+0000 010088 008264 2 AS-Aux-6 mtapsv:-:? AS Starting MSAS Session for sports2000.
+2021-11-02T17:02:57.001+0000 010088 008264 2 AS-Aux-6 mtapsv:-:? AS MSAS Session Startup. (5473)
+2021-11-02T17:02:57.003+0000 010088 008264 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 5, Status: 0
+2021-11-02T17:02:57.070+0000 010088 010232 1 AS-ResourceMgr mtapsv:-:? MSAS Spawning New Worker Thread. Number: 6
+2021-11-02T17:02:57.070+0000 010088 009512 2 AS-7 ?:?:? MSAS Incremented connection count for sports2000 (sports2000): 3
+2021-11-02T17:02:57.073+0000 010088 009512 2 AS-7 ?:?:? CONN           Database sports2000 Options:  (12699)
+2021-11-02T17:02:57.076+0000 010088 009512 2 AS-7 ?:?:? CONN           Connected to database sports2000, user number 7. (9543)
+2021-11-02T17:02:57.077+0000 010088 009512 1 AS-7 ?:?:? MSAS Successfully ran session startup procedure.
+2021-11-02T17:14:00.737+0000 010088 000464 1 AS-Listener mtapsv:-:? MSAS Agent Shutting Down. Status: 4020
+2021-11-02T17:14:00.738+0000 010088 005460 2 AS-4 ?:?:? CONN           Disconnecting from database sports2000, user number 6. (9545)
+2021-11-02T17:14:00.739+0000 010088 009512 2 AS-7 ?:?:? CONN           Disconnecting from database sports2000, user number 7. (9545)
+2021-11-02T17:14:00.741+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? MSAS Removed connection sports2000 from session 4.
+2021-11-02T17:14:00.741+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? MSAS Decremented connection count for sports2000 (sports2000): 2
+2021-11-02T17:14:00.755+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? MSAS Removed connection sports2000 from session 7.
+2021-11-02T17:14:00.755+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? MSAS Decremented connection count for sports2000 (sports2000): 1
+2021-11-02T17:14:00.771+0000 010088 005460 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 6, Status: 0
+2021-11-02T17:14:00.771+0000 010088 009512 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 4, Status: 0
+2021-11-02T17:14:00.883+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? MSAS Disconnecting resource manager sports2000 (sports2000).
+2021-11-02T17:14:00.883+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? CONN           Disconnecting from database sports2000, user number 5. (9545)
+2021-11-02T17:14:00.885+0000 010088 010232 2 AS-ResourceMgr mtapsv:-:? MSAS Removed connection sports2000 from session 2.
+2021-11-02T17:14:00.895+0000 010088 000464 1 AS-Listener mtapsv:-:? MSAS Agent Shutdown Complete.

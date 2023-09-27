@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;sports2000/AppServer/customerCRUD.p&apos;" deleteContents="false" description="Delete resource &apos;sports2000/AppServer/customerCRUD.p&apos;" element1="/sports2000/AppServer/customerCRUD.p" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1636022472214"/>&#x0A;<refactoring comment="Delete resource &apos;sports2000/AppServer/startup.p&apos;" deleteContents="false" description="Delete resource &apos;sports2000/AppServer/startup.p&apos;" element1="/sports2000/AppServer/startup.p" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1636022506158"/>
+</session>

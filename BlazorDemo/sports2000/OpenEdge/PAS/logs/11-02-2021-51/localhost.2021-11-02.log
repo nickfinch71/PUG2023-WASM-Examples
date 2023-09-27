@@ -1,0 +1,16 @@
+2021-11-02T14:13:33.659Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:13:33.829Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:13:33.898Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-11-02T14:13:40.118Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-11-02T14:13:42.933Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:13:43.176Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-11-02T14:13:52.977Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-11-02T14:13:54.461Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - No Spring WebApplicationInitializer types detected on classpath
+2021-11-02T14:13:54.525Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring root WebApplicationContext
+2021-11-02T14:13:56.809Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Initializing Spring DispatcherServlet 'mvc-dispatch'
+2021-11-02T14:18:20.827Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Destroying Spring FrameworkServlet 'mvc-dispatch'
+2021-11-02T14:18:22.934Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Closing Spring root WebApplicationContext
+2021-11-02T14:18:23.055Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Destroying Spring FrameworkServlet 'mvc-dispatch'
+2021-11-02T14:18:26.641Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Closing Spring root WebApplicationContext
+2021-11-02T14:18:29.556Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Destroying Spring FrameworkServlet 'mvc-dispatch'
+2021-11-02T14:18:29.568Z INFO  [Catalina-utility-1] o.a.catalina.core.ApplicationContext.log - Closing Spring root WebApplicationContext

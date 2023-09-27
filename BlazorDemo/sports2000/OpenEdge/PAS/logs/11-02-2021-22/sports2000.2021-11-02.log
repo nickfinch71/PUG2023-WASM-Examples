@@ -1,0 +1,10 @@
+2021-11-02T18:05:07.709Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@2a362bd to: org.apache.camel.support.SimpleTypeConverter@50eddacd 
+2021-11-02T18:05:09.960Z WARN  [Catalina-utility-1] - c.p.appserv.adapters.rest.Management - Property file C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2021-11-02T18:05:10.006Z WARN  [Catalina-utility-1] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2021-11-02T18:05:11.852Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@63b3914a to: org.apache.camel.support.SimpleTypeConverter@35a8bc20 
+2021-11-02T18:05:13.039Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2021-11-02T18:05:13.040Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2021-11-02T18:05:14.061Z WARN  [Catalina-utility-1] - c.p.appserv.IdleResourceWatchdog - Idle resource watchdog disabled 
+2021-11-02T18:05:15.982Z WARN  [Catalina-utility-1] - c.p.appserv.adapters.rest.Management - Property file C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2021-11-02T18:05:15.985Z WARN  [Catalina-utility-1] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2021-11-02T18:05:16.701Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@4473d1df to: org.apache.camel.support.SimpleTypeConverter@2e8d06d4 

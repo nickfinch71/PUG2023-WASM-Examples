@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.progress.openedge.pdt.pasoe.server.launch">
+    <stringAttribute key="ATTR_BROKER_HOST" value="localhost"/>
+    <stringAttribute key="ATTR_PAS_APPNAME" value="sports2000"/>
+    <stringAttribute key="abl.debug.PROPATH" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;propath version=&quot;12.2&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;schema/propath.xsd&quot;&gt;&#13;&#10;    &lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;D:\OpenEdge\WRK\BL\Management&quot; platform=&quot;All&quot;/&gt;&#13;&#10;    &lt;propathentry env=&quot;all&quot; kind=&quot;lib&quot; path=&quot;D:\Workdir\inmydata reporting serverless\ProgSrc\inmydata12.pl&quot; platform=&quot;All&quot;/&gt;&#13;&#10;    &lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;D:\OpenEdge\WRK\sports2000\webapps\ROOT\WEB-INF\openedge&quot; platform=&quot;All&quot;/&gt;&#13;&#10;    &lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;D:\OpenEdge\WRK\sports2000\ablapps\sports2000\openedge&quot; platform=&quot;All&quot;/&gt;&#13;&#10;    &lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;D:\OpenEdge\WRK\sports2000\openedge&quot; platform=&quot;All&quot;/&gt;&#13;&#10;    &lt;propathentry env=&quot;all&quot; kind=&quot;dir&quot; path=&quot;D:\Progress\OpenEdge\tty&quot; platform=&quot;All&quot;/&gt;&#13;&#10;    &lt;propathentry env=&quot;all&quot; kind=&quot;lib&quot; path=&quot;D:\Progress\OpenEdge\tty\netlib\OpenEdge.Net.pl&quot; platform=&quot;All&quot;/&gt;&#13;&#10;&lt;/propath&gt;&#13;&#10;"/>
+    <booleanAttribute key="abl.debug.PROPATH_USE_DEFAULT" value="false"/>
+    <stringAttribute key="abl.startup.STARTUP_PARAMETERS" value="-T &quot;D:\OpenEdge\WRK\sports2000/temp&quot; -db D:\OpenEdge\WRK\sports2000.db"/>
+    <stringAttribute key="abl.startup.WORKING_DIRECTORY" value="D:\OpenEdge\WRK\sports2000/work"/>
+    <stringAttribute key="agent.procedure.STARTUP_PROCEDURE" value="startup.p"/>
+    <stringAttribute key="broker-deployment-path" value="D:\OpenEdge\WRK\sports2000/openedge"/>
+    <booleanAttribute key="broker.DEBUGGER_SSL_ENABLE" value="false"/>
+    <intAttribute key="broker.DEBUG_PORT" value="8080"/>
+    <booleanAttribute key="broker.DISABLE_SSL_SESSION_CACHING" value="false"/>
+    <booleanAttribute key="broker.SSL_ENABLE" value="false"/>
+    <intAttribute key="broker.SSL_SESSION_CACHE_TIMEOUT" value="180"/>
+    <stringAttribute key="broker.procedure.STARTUP_PROCEDURE" value="startup.p"/>
+    <stringAttribute key="server-id" value="sports2000 in nflaptop5.sports2000 (Progress Application Server for OpenEdge 12.2)"/>
+</launchConfiguration>

@@ -1,0 +1,400 @@
+<?xml version="1.0" ?>
+<libraryinfo path="D:/Progress/OpenEdge/gui/" type="PathEntry" ModificationStamp="1694419990296" FullName="gui" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="aderesc">
+			<procedure name="_aload" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_aload.r"></procedure>
+			<procedure name="_convqc" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_convqc.r"></procedure>
+			<procedure name="_convtyp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_convtyp.r"></procedure>
+			<procedure name="_convu" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_convu.r"></procedure>
+			<procedure name="_fullnam" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_fullnam.r"></procedure>
+			<procedure name="_qread" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_qread.r"></procedure>
+			<procedure name="_read" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_read.r"></procedure>
+			<procedure name="_ttyconv" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderesc/_ttyconv.r"></procedure>
+		</relative>
+		<relative path="">
+			<procedure name="applhelp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/applhelp.r"></procedure>
+			<procedure name="dict" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/dict.r"></procedure>
+			<procedure name="licrpt" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/licrpt.r"></procedure>
+			<procedure name="prostart" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prostart.r"></procedure>
+			<procedure name="results" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/results.r"></procedure>
+			<procedure name="samples" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/samples.r"></procedure>
+			<procedure name="_ab" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_ab.r"></procedure>
+			<procedure name="_admin" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_admin.r"></procedure>
+			<procedure name="_comp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_comp.r"></procedure>
+			<procedure name="_desk" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_desk.r"></procedure>
+			<procedure name="_dict" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_dict.r"></procedure>
+			<procedure name="_edit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_edit.r"></procedure>
+			<procedure name="_help" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_help.r"></procedure>
+			<procedure name="_login" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_login.r"></procedure>
+			<procedure name="_passphrase" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_passphrase.r"></procedure>
+			<procedure name="_prostar" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_prostar.r"></procedure>
+			<procedure name="_resconv" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_resconv.r"></procedure>
+			<procedure name="_winevnt" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/_winevnt.r"></procedure>
+		</relative>
+		<relative path="prohelp">
+			<procedure name="dirlist" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/dirlist.r"></procedure>
+			<procedure name="endsess" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/endsess.r"></procedure>
+			<procedure name="function" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/function.r"></procedure>
+			<procedure name="keyword" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/keyword.r"></procedure>
+			<procedure name="operator" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/operator.r"></procedure>
+			<procedure name="prohelp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/prohelp.r"></procedure>
+			<procedure name="spec" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/spec.r"></procedure>
+			<procedure name="statemnt" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/statemnt.r"></procedure>
+			<procedure name="_keybrd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/_keybrd.r"></procedure>
+			<procedure name="_msgs" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/_msgs.r"></procedure>
+			<procedure name="_rcntmsg" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/prohelp/_rcntmsg.r"></procedure>
+		</relative>
+		<relative path="adm2">
+			<procedure name="appserver" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/appserver.r"></procedure>
+			<procedure name="askquestion" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/askquestion.r"></procedure>
+			<procedure name="b2b" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/b2b.r"></procedure>
+			<procedure name="browser" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/browser.r"></procedure>
+			<procedure name="cache" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/cache.r"></procedure>
+			<procedure name="caller" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/caller.r"></procedure>
+			<procedure name="callstring" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/callstring.r"></procedure>
+			<procedure name="callstringtt" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/callstringtt.r"></procedure>
+			<procedure name="calltable" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/calltable.r"></procedure>
+			<procedure name="calltablett" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/calltablett.r"></procedure>
+			<procedure name="cobuildp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/cobuildp.r"></procedure>
+			<procedure name="combo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/combo.r"></procedure>
+			<procedure name="commit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/commit.r"></procedure>
+			<procedure name="committransaction" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/committransaction.r"></procedure>
+			<procedure name="consumer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/consumer.r"></procedure>
+			<procedure name="containr" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/containr.r"></procedure>
+			<procedure name="data" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/data.r"></procedure>
+			<procedure name="datacontainer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/datacontainer.r"></procedure>
+			<procedure name="dataext" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dataext.r"></procedure>
+			<procedure name="dataextapi" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dataextapi.r"></procedure>
+			<procedure name="dataextcols" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dataextcols.r"></procedure>
+			<procedure name="dataquery" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dataquery.r"></procedure>
+			<procedure name="dataset" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dataset.r"></procedure>
+			<procedure name="dataview" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dataview.r"></procedure>
+			<procedure name="datavis" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/datavis.r"></procedure>
+			<procedure name="design" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/design.r"></procedure>
+			<procedure name="dynb2b" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynb2b.r"></procedure>
+			<procedure name="dynbrowser" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynbrowser.r"></procedure>
+			<procedure name="dyncombo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dyncombo.r"></procedure>
+			<procedure name="dynconsumer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynconsumer.r"></procedure>
+			<procedure name="dyncontainer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dyncontainer.r"></procedure>
+			<procedure name="dyndata" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dyndata.r"></procedure>
+			<procedure name="dyndataset" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dyndataset.r"></procedure>
+			<procedure name="dyndataview" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dyndataview.r"></procedure>
+			<procedure name="dynfilter" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynfilter.r"></procedure>
+			<procedure name="dynlookup" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynlookup.r"></procedure>
+			<procedure name="dynproducer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynproducer.r"></procedure>
+			<procedure name="dynrouter" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynrouter.r"></procedure>
+			<procedure name="dynsdo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynsdo.r"></procedure>
+			<procedure name="dynselect" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynselect.r"></procedure>
+			<procedure name="dyntoolbar" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dyntoolbar.r"></procedure>
+			<procedure name="dyntreeview" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dyntreeview.r"></procedure>
+			<procedure name="dynwindow" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/dynwindow.r"></procedure>
+			<procedure name="exportdata" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/exportdata.r"></procedure>
+			<procedure name="fetchcontaineddata" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/fetchcontaineddata.r"></procedure>
+			<procedure name="fetchcontainedrows" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/fetchcontainedrows.r"></procedure>
+			<procedure name="fetchdata" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/fetchdata.r"></procedure>
+			<procedure name="fetchdata64" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/fetchdata64.r"></procedure>
+			<procedure name="fetchdefs" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/fetchdefs.r"></procedure>
+			<procedure name="fetchfield" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/fetchfield.r"></procedure>
+			<procedure name="fetchrows" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/fetchrows.r"></procedure>
+			<procedure name="field" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/field.r"></procedure>
+			<procedure name="filter" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/filter.r"></procedure>
+			<procedure name="folder" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/folder.r"></procedure>
+			<procedure name="jmslogin" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/jmslogin.r"></procedure>
+			<procedure name="lobfield" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/lobfield.r"></procedure>
+			<procedure name="lookup" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/lookup.r"></procedure>
+			<procedure name="lookupfield" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/lookupfield.r"></procedure>
+			<procedure name="lookupqp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/lookupqp.r"></procedure>
+			<procedure name="messaging" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/messaging.r"></procedure>
+			<procedure name="msghandler" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/msghandler.r"></procedure>
+			<procedure name="panel" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/panel.r"></procedure>
+			<procedure name="pcommit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/pcommit.r"></procedure>
+			<procedure name="pnavico" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/pnavico.r"></procedure>
+			<procedure name="pnavlbl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/pnavlbl.r"></procedure>
+			<procedure name="producer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/producer.r"></procedure>
+			<procedure name="pupdsav" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/pupdsav.r"></procedure>
+			<procedure name="query" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/query.r"></procedure>
+			<procedure name="queryext" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/queryext.r"></procedure>
+			<procedure name="remotedynsdo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/remotedynsdo.r"></procedure>
+			<procedure name="router" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/router.r"></procedure>
+			<procedure name="sax" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/sax.r"></procedure>
+			<procedure name="sbo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/sbo.r"></procedure>
+			<procedure name="sboext" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/sboext.r"></procedure>
+			<procedure name="select" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/select.r"></procedure>
+			<procedure name="sendrows" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/sendrows.r"></procedure>
+			<procedure name="serviceadapter" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/serviceadapter.r"></procedure>
+			<procedure name="smart" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/smart.r"></procedure>
+			<procedure name="thincombo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/thincombo.r"></procedure>
+			<procedure name="thindata" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/thindata.r"></procedure>
+			<procedure name="thindataview" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/thindataview.r"></procedure>
+			<procedure name="thinlookup" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/thinlookup.r"></procedure>
+			<procedure name="thinsdo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/thinsdo.r"></procedure>
+			<procedure name="timesdfv" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/timesdfv.r"></procedure>
+			<procedure name="toolbar" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/toolbar.r"></procedure>
+			<procedure name="treeview" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/treeview.r"></procedure>
+			<procedure name="tvcontnr" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/tvcontnr.r"></procedure>
+			<procedure name="viewer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/viewer.r"></procedure>
+			<procedure name="visual" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/visual.r"></procedure>
+			<procedure name="xml" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/xml.r"></procedure>
+		</relative>
+		<relative path="aderes">
+			<procedure name="u-cprint" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-cprint.p" RfilePath=""></procedure>
+			<procedure name="u-cto" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-cto.p" RfilePath=""></procedure>
+			<procedure name="u-define" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-define.p" RfilePath=""></procedure>
+			<procedure name="u-direct" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-direct.p" RfilePath=""></procedure>
+			<procedure name="u-export" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-export.p" RfilePath=""></procedure>
+			<procedure name="u-field" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-field.p" RfilePath=""></procedure>
+			<procedure name="u-login" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-login.p" RfilePath=""></procedure>
+			<procedure name="u-logo" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-logo.p" RfilePath=""></procedure>
+			<procedure name="u-mcheck" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-mcheck.p" RfilePath=""></procedure>
+			<procedure name="u-menu" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-menu.p" RfilePath=""></procedure>
+			<procedure name="u-pprog" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-pprog.p" RfilePath=""></procedure>
+			<procedure name="u-print" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-print.p" RfilePath=""></procedure>
+			<procedure name="u-pview" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-pview.p" RfilePath=""></procedure>
+			<procedure name="u-secure" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-secure.p" RfilePath=""></procedure>
+			<procedure name="u-table" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-table.p" RfilePath=""></procedure>
+			<procedure name="u-thru" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-thru.p" RfilePath=""></procedure>
+			<procedure name="u-to" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-to.p" RfilePath=""></procedure>
+			<procedure name="u-where" SourceFilePath="D:/Progress/OpenEdge/gui/aderes/u-where.p" RfilePath=""></procedure>
+		</relative>
+		<relative path="adm/objects">
+			<procedure name="broker" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/broker.r"></procedure>
+			<procedure name="folder" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/folder.r"></procedure>
+			<procedure name="get-init" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/get-init.r"></procedure>
+			<procedure name="p-abc" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/p-abc.r"></procedure>
+			<procedure name="p-navico" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/p-navico.r"></procedure>
+			<procedure name="p-navlbl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/p-navlbl.r"></procedure>
+			<procedure name="p-option" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/p-option.r"></procedure>
+			<procedure name="p-updsav" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/p-updsav.r"></procedure>
+			<procedure name="p-updtxn" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/p-updtxn.r"></procedure>
+			<procedure name="rb-wrap" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/objects/rb-wrap.r"></procedure>
+		</relative>
+		<relative path="adm2/custom">
+			<procedure name="appservercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/appservercustom.r"></procedure>
+			<procedure name="b2bcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/b2bcustom.r"></procedure>
+			<procedure name="browsercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/browsercustom.r"></procedure>
+			<procedure name="callercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/callercustom.r"></procedure>
+			<procedure name="combocustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/combocustom.r"></procedure>
+			<procedure name="consumercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/consumercustom.r"></procedure>
+			<procedure name="containrcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/containrcustom.r"></procedure>
+			<procedure name="datacustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/datacustom.r"></procedure>
+			<procedure name="dataquerycustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/dataquerycustom.r"></procedure>
+			<procedure name="datasetcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/datasetcustom.r"></procedure>
+			<procedure name="dataviewcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/dataviewcustom.r"></procedure>
+			<procedure name="dataviscustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/dataviscustom.r"></procedure>
+			<procedure name="designcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/designcustom.r"></procedure>
+			<procedure name="fieldcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/fieldcustom.r"></procedure>
+			<procedure name="filtercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/filtercustom.r"></procedure>
+			<procedure name="lobfieldcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/lobfieldcustom.r"></procedure>
+			<procedure name="lookupcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/lookupcustom.r"></procedure>
+			<procedure name="lookupfieldcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/lookupfieldcustom.r"></procedure>
+			<procedure name="messagingcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/messagingcustom.r"></procedure>
+			<procedure name="msghandlercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/msghandlercustom.r"></procedure>
+			<procedure name="panelcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/panelcustom.r"></procedure>
+			<procedure name="producercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/producercustom.r"></procedure>
+			<procedure name="querycustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/querycustom.r"></procedure>
+			<procedure name="routercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/routercustom.r"></procedure>
+			<procedure name="saxcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/saxcustom.r"></procedure>
+			<procedure name="sbocustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/sbocustom.r"></procedure>
+			<procedure name="selectcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/selectcustom.r"></procedure>
+			<procedure name="smartcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/smartcustom.r"></procedure>
+			<procedure name="toolbarcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/toolbarcustom.r"></procedure>
+			<procedure name="treeviewcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/treeviewcustom.r"></procedure>
+			<procedure name="tvcontnrcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/tvcontnrcustom.r"></procedure>
+			<procedure name="viewercustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/viewercustom.r"></procedure>
+			<procedure name="visualcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/visualcustom.r"></procedure>
+			<procedure name="xmlcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/custom/xmlcustom.r"></procedure>
+		</relative>
+		<relative path="web2">
+			<procedure name="admweb" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/admweb.r"></procedure>
+			<procedure name="html-map" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/html-map.r"></procedure>
+			<procedure name="wbdata" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/wbdata.r"></procedure>
+			<procedure name="wbtable" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/wbtable.r"></procedure>
+			<procedure name="webrep" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/webrep.r"></procedure>
+		</relative>
+		<relative path="webutil">
+			<procedure name="about" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/about.r"></procedure>
+			<procedure name="conve4gl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/conve4gl.r"></procedure>
+			<procedure name="dbcheck" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/dbcheck.r"></procedure>
+			<procedure name="dbConnect" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/dbConnect.r"></procedure>
+			<procedure name="dbDisconnect" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/dbDisconnect.r"></procedure>
+			<procedure name="debug" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/debug.r"></procedure>
+			<procedure name="e4gl-gen" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/e4gl-gen.r"></procedure>
+			<procedure name="paswebstart" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/paswebstart.r"></procedure>
+			<procedure name="ping" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/ping.r"></procedure>
+			<procedure name="reset" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/reset.r"></procedure>
+			<procedure name="webstart" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/webstart.r"></procedure>
+			<procedure name="_cpyfile" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_cpyfile.r"></procedure>
+			<procedure name="_fldinf1" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_fldinf1.r"></procedure>
+			<procedure name="_fldinfo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_fldinfo.r"></procedure>
+			<procedure name="_fldtyp1" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_fldtyp1.r"></procedure>
+			<procedure name="_fldtype" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_fldtype.r"></procedure>
+			<procedure name="_genoff" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_genoff.r"></procedure>
+			<procedure name="_goto" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_goto.r"></procedure>
+			<procedure name="_htmsrch" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_htmsrch.r"></procedure>
+			<procedure name="_offsrch" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_offsrch.r"></procedure>
+			<procedure name="_osfile" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_osfile.r"></procedure>
+			<procedure name="_osfile1" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_osfile1.r"></procedure>
+			<procedure name="_osfile3" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_osfile3.r"></procedure>
+			<procedure name="_prnwin" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_prnwin.r"></procedure>
+			<procedure name="_probar" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_probar.r"></procedure>
+			<procedure name="_promsgs" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_promsgs.r"></procedure>
+			<procedure name="_relname" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_relname.r"></procedure>
+			<procedure name="_savebar" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_savebar.r"></procedure>
+			<procedure name="_sdoinfo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_sdoinfo.r"></procedure>
+			<procedure name="_weblist" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_weblist.r"></procedure>
+			<procedure name="_webmsgs" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_webmsgs.r"></procedure>
+			<procedure name="_wstyle" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/webutil/_wstyle.r"></procedure>
+		</relative>
+		<relative path="web2/support">
+			<procedure name="rdoffr" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/support/rdoffr.r"></procedure>
+			<procedure name="_rmtsdo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/support/_rmtsdo.r"></procedure>
+		</relative>
+		<relative path="adm/support">
+			<procedure name="abcd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/abcd.r"></procedure>
+			<procedure name="advqedit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/advqedit.r"></procedure>
+			<procedure name="attr-edt" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/attr-edt.r"></procedure>
+			<procedure name="browserd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/browserd.r"></procedure>
+			<procedure name="contnrd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/contnrd.r"></procedure>
+			<procedure name="filtedit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/filtedit.r"></procedure>
+			<procedure name="folderd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/folderd.r"></procedure>
+			<procedure name="keyedit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/keyedit.r"></procedure>
+			<procedure name="n-paneld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/n-paneld.r"></procedure>
+			<procedure name="optiond" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/optiond.r"></procedure>
+			<procedure name="queryd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/queryd.r"></procedure>
+			<procedure name="rb-wrapd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/rb-wrapd.r"></procedure>
+			<procedure name="sortedit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/sortedit.r"></procedure>
+			<procedure name="u-paneld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/u-paneld.r"></procedure>
+			<procedure name="viewerd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/viewerd.r"></procedure>
+			<procedure name="xedit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/xedit.r"></procedure>
+			<procedure name="_adm-opn" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_adm-opn.r"></procedure>
+			<procedure name="_key-fnd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_key-fnd.r"></procedure>
+			<procedure name="_key-snd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_key-snd.r"></procedure>
+			<procedure name="_so-attr" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_so-attr.r"></procedure>
+			<procedure name="_so-info" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_so-info.r"></procedure>
+			<procedure name="_tagdat" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_tagdat.r"></procedure>
+			<procedure name="_wizafld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizafld.r"></procedure>
+			<procedure name="_wizard" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizard.r"></procedure>
+			<procedure name="_wizdel" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizdel.r"></procedure>
+			<procedure name="_wizend" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizend.r"></procedure>
+			<procedure name="_wizfld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizfld.r"></procedure>
+			<procedure name="_wizkey" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizkey.r"></procedure>
+			<procedure name="_wizntro" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizntro.r"></procedure>
+			<procedure name="_wizqry" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizqry.r"></procedure>
+			<procedure name="_wizxtbl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_wizxtbl.r"></procedure>
+			<procedure name="_xgetdat" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/support/_xgetdat.r"></procedure>
+		</relative>
+		<relative path="web/support">
+			<procedure name="printval" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/printval.r"></procedure>
+			<procedure name="rdoffr" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/rdoffr.r"></procedure>
+			<procedure name="tagparse" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/tagparse.r"></procedure>
+			<procedure name="tagrun" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/tagrun.r"></procedure>
+			<procedure name="webedit" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/webedit.r"></procedure>
+			<procedure name="webinpu2" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/webinpu2.r"></procedure>
+			<procedure name="webinput" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/webinput.r"></procedure>
+			<procedure name="weblist" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/weblist.r"></procedure>
+			<procedure name="webmsg" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/webmsg.r"></procedure>
+			<procedure name="webradio" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/webradio.r"></procedure>
+			<procedure name="webtog" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/support/webtog.r"></procedure>
+		</relative>
+		<relative path="web2/custom">
+			<procedure name="admwebcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/custom/admwebcustom.r"></procedure>
+			<procedure name="html-mapcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/custom/html-mapcustom.r"></procedure>
+			<procedure name="wbdatacustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/custom/wbdatacustom.r"></procedure>
+			<procedure name="wbtablecustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/custom/wbtablecustom.r"></procedure>
+			<procedure name="webrepcustom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web2/custom/webrepcustom.r"></procedure>
+		</relative>
+		<relative path="aderb">
+			<procedure name="_getini" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_getini.r"></procedure>
+			<procedure name="_getname" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_getname.r"></procedure>
+			<procedure name="_prdef" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_prdef.r"></procedure>
+			<procedure name="_printrb" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_printrb.r"></procedure>
+			<procedure name="_prlist" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_prlist.r"></procedure>
+			<procedure name="_prntint" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_prntint.r"></procedure>
+			<procedure name="_prntrb2" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_prntrb2.r"></procedure>
+			<procedure name="_prore" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_prore.r"></procedure>
+			<procedure name="_rbpwenc" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/aderb/_rbpwenc.r"></procedure>
+		</relative>
+		<relative path="adm2/support">
+			<procedure name="b2bd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/b2bd.r"></procedure>
+			<procedure name="brouter" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/brouter.r"></procedure>
+			<procedure name="browsed" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/browsed.r"></procedure>
+			<procedure name="consumerd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/consumerd.r"></procedure>
+			<procedure name="datad" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/datad.r"></procedure>
+			<procedure name="dataviewd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/dataviewd.r"></procedure>
+			<procedure name="db2b" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/db2b.r"></procedure>
+			<procedure name="db2b_cl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/db2b_cl.r"></procedure>
+			<procedure name="dconsumer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/dconsumer.r"></procedure>
+			<procedure name="dconsumer_cl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/dconsumer_cl.r"></procedure>
+			<procedure name="drouter" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/drouter.r"></procedure>
+			<procedure name="drouter_cl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/drouter_cl.r"></procedure>
+			<procedure name="dynbrowserd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/dynbrowserd.r"></procedure>
+			<procedure name="fieldd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/fieldd.r"></procedure>
+			<procedure name="filterd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/filterd.r"></procedure>
+			<procedure name="folderd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/folderd.r"></procedure>
+			<procedure name="lobfieldd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/lobfieldd.r"></procedure>
+			<procedure name="n-paneld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/n-paneld.r"></procedure>
+			<procedure name="producerd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/producerd.r"></procedure>
+			<procedure name="routerd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/routerd.r"></procedure>
+			<procedure name="sbod" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/sbod.r"></procedure>
+			<procedure name="selectd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/selectd.r"></procedure>
+			<procedure name="senderd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/senderd.r"></procedure>
+			<procedure name="toggleframe" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/toggleframe.r"></procedure>
+			<procedure name="toold" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/toold.r"></procedure>
+			<procedure name="treeviewd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/treeviewd.r"></procedure>
+			<procedure name="u-paneld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/u-paneld.r"></procedure>
+			<procedure name="vb2b" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/vb2b.r"></procedure>
+			<procedure name="vb2bdata" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/vb2bdata.r"></procedure>
+			<procedure name="vconsumer" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/vconsumer.r"></procedure>
+			<procedure name="viewerd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/viewerd.r"></procedure>
+			<procedure name="visuald" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/visuald.r"></procedure>
+			<procedure name="_so-attr" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_so-attr.r"></procedure>
+			<procedure name="_so-info" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_so-info.r"></procedure>
+			<procedure name="_wizard" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizard.r"></procedure>
+			<procedure name="_wizbkgr" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizbkgr.r"></procedure>
+			<procedure name="_wizdel" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizdel.r"></procedure>
+			<procedure name="_wizdfld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizdfld.r"></procedure>
+			<procedure name="_wizdo" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizdo.r"></procedure>
+			<procedure name="_wizds" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizds.r"></procedure>
+			<procedure name="_wizend" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizend.r"></procedure>
+			<procedure name="_wizetbl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizetbl.r"></procedure>
+			<procedure name="_wizfld" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizfld.r"></procedure>
+			<procedure name="_wizhref" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizhref.r"></procedure>
+			<procedure name="_wizhtml" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizhtml.r"></procedure>
+			<procedure name="_wizlog" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizlog.r"></procedure>
+			<procedure name="_wizmap" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizmap.r"></procedure>
+			<procedure name="_wizntro" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizntro.r"></procedure>
+			<procedure name="_wizqry" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizqry.r"></procedure>
+			<procedure name="_wizstyl" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm2/support/_wizstyl.r"></procedure>
+		</relative>
+		<relative path="adm/samples">
+			<procedure name="b-cuslkp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/b-cuslkp.r"></procedure>
+			<procedure name="b-linord" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/b-linord.r"></procedure>
+			<procedure name="itemsel" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/itemsel.r"></procedure>
+			<procedure name="p-savres" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/p-savres.r"></procedure>
+			<procedure name="q-itmcat" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/q-itmcat.r"></procedure>
+			<procedure name="q-ordcus" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/q-ordcus.r"></procedure>
+			<procedure name="uib-clck" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/uib-clck.r"></procedure>
+			<procedure name="v-cusadd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/v-cusadd.r"></procedure>
+			<procedure name="v-cuscdt" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/v-cuscdt.r"></procedure>
+			<procedure name="v-cuscom" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/v-cuscom.r"></procedure>
+			<procedure name="v-cusord" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/v-cusord.r"></procedure>
+			<procedure name="v-itminf" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/v-itminf.r"></procedure>
+			<procedure name="v-shpinf" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/v-shpinf.r"></procedure>
+			<procedure name="v-spin" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/v-spin.r"></procedure>
+			<procedure name="w-cusupd" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/w-cusupd.r"></procedure>
+			<procedure name="w-ordtrk" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adm/samples/w-ordtrk.r"></procedure>
+		</relative>
+		<relative path="web/objects">
+			<procedure name="dbtools" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/dbtools.r"></procedure>
+			<procedure name="devpath" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/devpath.r"></procedure>
+			<procedure name="runlog" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/runlog.r"></procedure>
+			<procedure name="session" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/session.r"></procedure>
+			<procedure name="stateaware" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/stateaware.r"></procedure>
+			<procedure name="web-disp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/web-disp.r"></procedure>
+			<procedure name="web-handler" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/web-handler.r"></procedure>
+			<procedure name="web-util" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/web/objects/web-util.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

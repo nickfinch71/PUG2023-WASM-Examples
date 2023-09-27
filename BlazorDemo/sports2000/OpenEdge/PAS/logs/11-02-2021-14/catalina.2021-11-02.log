@@ -1,0 +1,133 @@
+2021-11-02T17:26:20.142Z INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-02T17:26:20.219Z INFO  [main] org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T17:26:20.225Z INFO  [main] org.apache.catalina.startup.Catalina.load - Server initialization in [1628] milliseconds
+2021-11-02T17:26:20.257Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartupScripts - Running startup scripts
+2021-11-02T17:26:20.378Z INFO  [main] o.a.catalina.core.StandardService.startInternal - Starting service [Catalina]
+2021-11-02T17:26:20.380Z INFO  [main] o.a.catalina.core.StandardEngine.startInternal - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-11-02T17:26:21.434Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\manager.war]
+2021-11-02T17:26:22.834Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\manager.war] has finished in [1,399] ms
+2021-11-02T17:26:22.858Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oedbg.war]
+2021-11-02T17:26:23.748Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oedbg.war] has finished in [889] ms
+2021-11-02T17:26:23.757Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oemanager.war]
+2021-11-02T17:26:35.865Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\oemanager.war] has finished in [12,108] ms
+2021-11-02T17:26:35.871Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deploying web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb.war]
+2021-11-02T17:26:47.874Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployWAR - Deployment of web application archive [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb.war] has finished in [12,003] ms
+2021-11-02T17:26:47.878Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deploying web application directory [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT]
+2021-11-02T17:26:50.781Z INFO  [Catalina-utility-1] o.apache.catalina.startup.HostConfig.deployDirectory - Deployment of web application directory [C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT] has finished in [2,903] ms
+2021-11-02T17:26:50.795Z INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["http-nio-8080"]
+2021-11-02T17:26:50.824Z INFO  [main] org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T17:26:51.282Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runStartedScripts - Running started scripts
+2021-11-02T17:26:51.283Z INFO  [main] c.p.a.s.l.OeLifecycleListener.startHealthCollector - Health collector disabled
+2021-11-02T17:26:51.296Z INFO  [main] org.apache.catalina.startup.Catalina.start - Server startup in [31040] milliseconds
+2021-11-02T17:28:08.976Z INFO  [main] o.a.catalina.core.StandardServer.await - A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2021-11-02T17:28:08.978Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runStoppingScripts - Running stopping scripts
+2021-11-02T17:28:09.039Z INFO  [main] org.apache.coyote.AbstractProtocol.pause - Pausing ProtocolHandler ["http-nio-8080"]
+2021-11-02T17:28:09.040Z INFO  [main] org.apache.coyote.AbstractProtocol.pause - Pausing ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T17:28:09.040Z INFO  [main] o.a.catalina.core.StandardService.stopInternal - Stopping service [Catalina]
+2021-11-02T17:28:09.275Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [restWeb] appears to have started a thread named [PropertyFileMonitor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/java.lang.Thread.sleep(Native Method)
+ com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:122)
+2021-11-02T17:28:09.276Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [restWeb] appears to have started a thread named [PropertyFileMonitor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/java.lang.Thread.sleep(Native Method)
+ com.progress.appserv.services.properties.ubimpl.ubWatchDog.run(ubWatchDog.java:122)
+2021-11-02T17:28:09.277Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [restWeb] appears to have started a thread named [XWZETWbwTG-5xiKOBKNryw-agent-watchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ java.base@11.0.4/sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:339)
+ java.base@11.0.4/sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:167)
+ java.base@11.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+ java.base@11.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:136)
+ com.progress.appserv.broker.agent.TcpAgentPool$AgentPoolWatchdog.run(TcpAgentPool.java:2933)
+2021-11-02T17:28:09.278Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [restWeb] appears to have started a thread named [XWZETWbwTG-5xiKOBKNryw-starter-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.427Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.428Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.429Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.430Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.449Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.450Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.451Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.452Z WARN  [Catalina-utility-2] o.a.c.loader.WebappClassLoaderBase.clearReferencesThreads - The web application [oedbg] appears to have started a thread named [logback-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@11.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.4/java.lang.Thread.run(Thread.java:834)
+2021-11-02T17:28:09.498Z INFO  [main] org.apache.coyote.AbstractProtocol.stop - Stopping ProtocolHandler ["http-nio-8080"]
+2021-11-02T17:28:09.500Z INFO  [main] org.apache.coyote.AbstractProtocol.stop - Stopping ProtocolHandler ["https-jsse-nio-8443"]
+2021-11-02T17:28:09.505Z INFO  [main] c.p.a.s.l.OeLifecycleListener.runShutdownScripts - Running shutdown scripts
+2021-11-02T17:28:09.515Z INFO  [main] org.apache.coyote.AbstractProtocol.destroy - Destroying ProtocolHandler ["http-nio-8080"]
+2021-11-02T17:28:09.516Z INFO  [main] org.apache.coyote.AbstractProtocol.destroy - Destroying ProtocolHandler ["https-jsse-nio-8443"]

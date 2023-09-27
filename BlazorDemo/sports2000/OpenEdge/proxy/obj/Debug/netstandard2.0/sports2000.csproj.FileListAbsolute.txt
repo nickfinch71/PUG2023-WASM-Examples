@@ -1,0 +1,8 @@
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000proxy\sports2000.deps.json
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000proxy\sports2000.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000proxy\sports2000.pdb
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000.csproj.AssemblyReference.cache
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000.csproj.CoreCompileInputs.cache
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000.pdb

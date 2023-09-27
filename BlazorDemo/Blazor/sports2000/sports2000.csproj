@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFrameworkCore.OpenEdge" Version="1.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.11" PrivateAssets="all" />
+    <PackageReference Include="Radzen.Blazor" Version="3.11.10" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Progress.Messages">
+      <HintPath>..\..\sports2000\OpenEdge\proxy\sports2000crud\Progress.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Progress.o4glrt">
+      <HintPath>..\..\sports2000\OpenEdge\proxy\sports2000crud\Progress.o4glrt.dll</HintPath>
+    </Reference>
+    <Reference Include="sports2000proxy">
+      <HintPath>..\..\sports2000\OpenEdge\proxy\sports2000crud\sports2000proxy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

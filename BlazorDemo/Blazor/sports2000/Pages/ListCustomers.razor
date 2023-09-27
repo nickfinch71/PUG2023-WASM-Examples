@@ -1,0 +1,34 @@
+﻿@page "/listCustomers"
+
+<button @onclick="GetCustomers">Try and connect (using OpenClient)</button>
+
+@if(Connected())
+{
+	<h1>CONNECTED!!</h1>
+}
+else
+{
+	<p>not conneced</p>
+	@if(openEdgeClient!=null)
+	{
+		<p>@((MarkupString)openEdgeClient.connectError)</p>
+	  <p><a target="_blank" href="https://stackoverflow.com/questions/56284192/webclient-not-supported">https://stackoverflow.com/questions/56284192/webclient-not-supported</a>
+    <br /><a target="_blank" href="https://openedge.ideas.aha.io/ideas/OPENEDGE-I-966">https://openedge.ideas.aha.io/ideas/OPENEDGE-I-966</a></p>
+	}
+}
+
+@code {
+  private Clients.ProgressOpenClient openEdgeClient;
+
+  private void GetCustomers()
+  {
+    openEdgeClient = new Clients.ProgressOpenClient();
+    openEdgeClient.Connect("http://localhost:8080/apsv", "", "", "", true);
+  }
+
+  private bool Connected()
+  {
+    if (openEdgeClient != null && openEdgeClient.Connected) return true;
+    return false;
+  }
+}

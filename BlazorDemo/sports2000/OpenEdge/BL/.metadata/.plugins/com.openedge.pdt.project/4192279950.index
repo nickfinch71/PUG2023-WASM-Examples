@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/WorkDir/sports2000/OpenEdge/BL/restWeb/PASOEContent/WEB-INF/openedge" type="PathEntry" ModificationStamp="1636023928656" FullName="openedge" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+	</procedures>
+	<classes>
+		<pacakage name="">
+			<class name="restWebHandler" SourceFilePath="C:/WorkDir/sports2000/OpenEdge/BL/restWeb/PASOEContent/WEB-INF/openedge/restWebHandler.cls" RfilePath="C:/WorkDir/sports2000/OpenEdge/BL/restWeb/PASOEContent/WEB-INF/openedge/restWebHandler.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.Web.WebHandler" InterfaceNames="" ImportedPackages=""></class>
+			<class name="rwDepartmentHandler" SourceFilePath="C:/WorkDir/sports2000/OpenEdge/BL/restWeb/PASOEContent/WEB-INF/openedge/rwDepartmentHandler.cls" RfilePath="C:/WorkDir/sports2000/OpenEdge/BL/restWeb/PASOEContent/WEB-INF/openedge/rwDepartmentHandler.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.Web.WebHandler" InterfaceNames="" ImportedPackages=""></class>
+			<class name="rwEmployeeHandler" SourceFilePath="C:/WorkDir/sports2000/OpenEdge/BL/restWeb/PASOEContent/WEB-INF/openedge/rwEmployeeHandler.cls" RfilePath="C:/WorkDir/sports2000/OpenEdge/BL/restWeb/PASOEContent/WEB-INF/openedge/rwEmployeeHandler.r" Abstract="false" Final="false" isInterface="false" isSerializable="false" SuperClassName="OpenEdge.Web.WebHandler" InterfaceNames="" ImportedPackages=""></class>
+		</pacakage>
+	</classes>
+</libraryinfo>

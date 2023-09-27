@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Progress.Messages">
+      <HintPath>..\..\sports2000\OpenEdge\proxy\sports2000crud\Progress.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Progress.o4glrt">
+      <HintPath>..\..\sports2000\OpenEdge\proxy\sports2000crud\Progress.o4glrt.dll</HintPath>
+    </Reference>
+    <Reference Include="sports2000proxy">
+      <HintPath>..\..\sports2000\OpenEdge\proxy\sports2000crud\sports2000proxy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

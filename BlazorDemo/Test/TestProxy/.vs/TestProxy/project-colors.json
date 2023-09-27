@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ac4f5ed9-30af-4e5e-b97a-9d879ebe889f": {
+      "ProjectGuid": "ac4f5ed9-30af-4e5e-b97a-9d879ebe889f",
+      "DisplayName": "TestProxy",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

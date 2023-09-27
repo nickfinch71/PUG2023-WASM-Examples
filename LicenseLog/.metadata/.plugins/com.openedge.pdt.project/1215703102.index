@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<libraryinfo path="D:/Progress/OpenEdge/gui/adecomp.pl" type="ProcedureLibrary" ModificationStamp="1694419990279" FullName="adecomp.pl" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="adecomp">
+			<procedure name="_compile" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adecomp.pl" isInsidePL="true" Offset="42" RelativePath="adecomp"></procedure>
+			<procedure name="_fspec" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adecomp.pl" isInsidePL="true" Offset="40174" RelativePath="adecomp"></procedure>
+			<procedure name="_ppath" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adecomp.pl" isInsidePL="true" Offset="85224" RelativePath="adecomp"></procedure>
+			<procedure name="_procomp" SourceFilePath="" RfilePath="D:/Progress/OpenEdge/gui/adecomp.pl" isInsidePL="true" Offset="104124" RelativePath="adecomp"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

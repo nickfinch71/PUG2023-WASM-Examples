@@ -1,0 +1,146 @@
+
+%% Updated property file
+%% Oct 25, 2021, 10:11:58 AM
+
+##########################################################################
+ ##                                                                      ##
+ ##        Copyright (c) 1998-2017 by Progress Software Corporation      ##
+ ##                                                                      ##
+ ## All rights reserved.  No part of this program or document may be     ##
+ ## reproduced in any form or by any means without permission in writing ##
+ ## from Progress Software Corporation.                                  ##
+ ##                                                                      ##
+ ##########################################################################
+ #
+ # -------------------- openedge.properties ------------------------------
+ #
+ # Property File for the Pacific Application Server for OpenEdge
+ #
+ #
+ # This definition file includes the properties that you can define in
+ # a Pacific AppServer for OpenEdge.
+ #
+ # All information about the properties in this property file may be found
+ # in the file:
+ #
+ #          openedge.properties.README.
+ #
+ ##########################################################################
+ ##
+ #
+ # AppServer specific properties
+ #
+[AppServer]
+    collectMetrics=1
+    applications=sports2000
+    statusEnabled=1
+    allowRuntimeUpdates=1
+
+[AppServer.Agent]
+    numInitialSessions=5
+    sessionStartupProcParam=
+    sessionConnectProc=
+    agentStartupProc=
+    lockAllExtLib=
+    agentMinPort=62002
+    sessionStartupProc=
+    usingThreadSafeExtLib=
+    workDir=${CATALINA_BASE}/work
+    binaryUploadMaxSize=0
+    agentMaxPort=62202
+    sessionExecutionTimeLimit=0
+    agentStartupProcParam=
+    sessionDeactivateProc=
+    flushStatsData=0
+    collectStatsData=0
+    sessionShutdownProc=
+    fileUploadDirectory=
+    uuid=
+    completeActiveReqTimeout=600000
+    lockAllNonThreadSafeExtLib=
+    PROPATH=${CATALINA_BASE}/openedge,${DLC}/tty,${DLC}/tty/netlib/OpenEdge.Net.pl
+    sessionDisconnProc=
+    infoVersion=9010
+    agentShutdownProc=
+    minAvailableABLSessions=1
+    sessionActivateProc=
+
+[AppServer.Agent.sports2000]
+    numInitialSessions=2
+    uuid=http://BlazorDemo:8443/sports2000
+    PROPATH=C:\WorkDir\sports2000\OpenEdge\BL\sports2000\AppServer,${CATALINA_BASE}/webapps/ROOT/WEB-INF/openedge,${CATALINA_BASE}/ablapps/sports2000/openedge,${CATALINA_BASE}/openedge,${DLC}/tty,${DLC}/tty/netlib/OpenEdge.Net.pl
+
+ #
+ #  Default properties for Session Manager
+ #
+[AppServer.SessMgr]
+    publishDir=${catalina.base}/openedge
+    idleResourceTimeout=0
+    maxABLSessionsPerAgent=200
+    defaultAgentWaitToFinish=30000
+    numInitialAgents=1
+    defrdLogEntryTypes=
+    defaultAgentWaitAfterStop=30000
+    agentLogFile=
+    socketTimeout=3000
+    defrdLoggingLevel=0
+    requestWaitTimeout=15000
+    agentLoggingLevel=2
+    agentStartLimit=1
+    idleSessionTimeout=1800000
+    maxAgents=2
+    defrdLogNumLines=0
+    minAgents=1
+    idleAgentTimeout=1800000
+    agentExecFile=${psc.as.oe.dlc}/bin/_mproapsv
+    ipver=IPv4
+    agentLogEntryTypes=
+    agentListenerTimeout=300000
+    connectionWaitTimeout=3000
+    agentStartupParam=-T "${catalina.base}/temp"
+    idleConnectionTimeout=300000
+    agentWatchdogTimeout=3000
+    tcpNoDelay=1
+    maxConnectionsPerAgent=200
+
+[AppServer.SessMgr.sports2000]
+    agentLogEntryTypes=ASPlumbing,DB.Connects
+    agentStartupParam=-T "${catalina.base}/temp" -db C:\WorkDir\sports2000\OpenEdge\db\sports2000.db
+    collectMetrics=3
+    agentLogFile=${catalina.base}/logs/sports2000.agent.{yyyy-mm-dd}.log
+
+[sports2000]
+    webApps=ROOT
+
+[sports2000.ROOT]
+    collectMetrics=1
+    statusEnabled=1
+    allowRuntimeUpdates=1
+
+[sports2000.ROOT.APSV]
+    oepingEnabled=0
+    useHTTPSessions=1
+    enableRequestChunking=1
+    oepingProcedure=
+    serviceFaultLevel=1
+    adapterEnabled=1
+
+[sports2000.ROOT.REST]
+    adapterEnabled=1
+
+[sports2000.ROOT.SOAP]
+    adminSoapAction=urn:services-progress-com:wsa-admin:01
+    adminEnabled=1
+    debugClients=
+    adapterEnabled=1
+    wsdlEnabled=1
+    wsaUrl=http://${psc.as.host.name}:${psc.as.http.port}/soap
+
+[sports2000.ROOT.WEB]
+    defaultCookieDomain=
+    wsRoot=/static/webspeed
+    srvrDebug=1
+    defaultHandler=OpenEdge.Web.CompatibilityHandler
+    adapterEnabled=1
+    defaultCookiePath=
+    srvrAppMode=development

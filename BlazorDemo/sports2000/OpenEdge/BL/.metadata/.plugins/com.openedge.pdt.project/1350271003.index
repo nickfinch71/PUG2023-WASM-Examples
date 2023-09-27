@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<libraryinfo path="C:/WorkDir/sports2000/OpenEdge/BL/sports2000" type="PathEntry" ModificationStamp="1636023928655" FullName="sports2000" lib_header_magic_number="2384638594569" lib_header_version="15">
+	<procedures>
+		<relative path="AppServer">
+			<procedure name="GetCustomers" SourceFilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000/AppServer/GetCustomers.p" RfilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000/AppServer/GetCustomers.r"></procedure>
+			<procedure name="customerCRUD" SourceFilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000/AppServer/customerCRUD.p" RfilePath="C:/WorkDir/sports2000/OpenEdge/BL/sports2000/AppServer/customerCRUD.r"></procedure>
+		</relative>
+	</procedures>
+	<classes>
+	</classes>
+</libraryinfo>

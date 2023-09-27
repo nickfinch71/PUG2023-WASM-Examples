@@ -1,0 +1,13 @@
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000\sports2000proxy.deps.json
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000\sports2000proxy.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000\sports2000proxy.pdb
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000\Progress.Messages.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000\Progress.o4glrt.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000proxy.csproj.AssemblyReference.cache
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000proxy.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000proxy.csproj.CoreCompileInputs.cache
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000proxy.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\obj\Debug\netstandard2.0\sports2000proxy.pdb
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\sports2000proxy.deps.json
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\sports2000proxy.dll
+C:\WorkDir\sports2000\OpenEdge\proxy\sports2000crud\sports2000proxy.pdb

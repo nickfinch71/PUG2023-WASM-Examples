@@ -1,0 +1,51 @@
+﻿@page "/listEmployees"
+@using System.Data
+@using sports2000.Model;
+
+@if(!string.IsNullOrWhiteSpace(errorMessage)) {
+	<p class="error">@errorMessage</p>
+}
+else {
+	@if(employees==null)
+	{
+		<p>Loading...</p>
+	}
+	else
+	{
+		<p>There are @employees.Count.ToString() Employees</p>
+		<p>
+		  Department:
+			<select @bind="department">
+		    <option value="[All]">All</option>
+				@foreach(Department dept in departments) {
+				  <option value="@dept.DeptCode">@dept.DeptName</option>
+				}
+			</select> contains @employees.Where(e=>department=="[All]" || e.DeptCode == department).Count().ToString() employees
+		</p>
+	  <RadzenDataGrid 
+		  AllowFiltering="true" 
+		  AllowColumnResize="true" 
+		  FilterMode="FilterMode.Simple" 
+		  PageSize="10" 
+		  AllowPaging="true" 
+		  AllowSorting="true"
+		  AllowGrouping="true"
+		  AllowColumnReorder="true"
+		  Data="@employees.Where(e=>department=="[All]" || e.DeptCode == department)" 
+		  TItem="Employee" 
+		  ColumnWidth="300px" 
+	    SelectionMode="DataGridSelectionMode.Single"
+		  LogicalFilterOperator="LogicalFilterOperator.Or">
+		  <Columns>
+		    <RadzenDataGridColumn TItem="Employee" Property="FullName" Filterable="true" Title="Employee" Frozen="true" Width="70px" TextAlign="TextAlign.Left" />
+			  <RadzenDataGridColumn TItem="Employee" Property="Birthdate" Title="Birth Date" FormatString="{0:d}" Width="50px" />
+			  <RadzenDataGridColumn TItem="Employee" Property="Age" Title="Age" Width="50px" />
+			  <RadzenDataGridColumn TItem="Employee" Property="Position" Title="Position" Width="50px" />
+			  <RadzenDataGridColumn TItem="Employee" Property="SickDaysLeft" Title="Sick Days Left" Width="50px" />
+			  <RadzenDataGridColumn TItem="Employee" Property="VacationDaysLeft" Title="Vacation Days Left" Width="50px" />
+			  <RadzenDataGridColumn TItem="Employee" Property="TotalDaysLeft" Title="Total Days Left" Width="50px" />
+		  </Columns>
+		</RadzenDataGrid> 
+
+	}
+}

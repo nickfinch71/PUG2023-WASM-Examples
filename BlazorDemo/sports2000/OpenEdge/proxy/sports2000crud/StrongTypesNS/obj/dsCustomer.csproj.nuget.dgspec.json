@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WorkDir\\sports2000\\OpenEdge\\proxy\\sports2000crud\\StrongTypesNS\\dsCustomer.csproj": {}
+  },
+  "projects": {
+    "C:\\WorkDir\\sports2000\\OpenEdge\\proxy\\sports2000crud\\StrongTypesNS\\dsCustomer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkDir\\sports2000\\OpenEdge\\proxy\\sports2000crud\\StrongTypesNS\\dsCustomer.csproj",
+        "projectName": "dsCustomer",
+        "projectPath": "C:\\WorkDir\\sports2000\\OpenEdge\\proxy\\sports2000crud\\StrongTypesNS\\dsCustomer.csproj",
+        "packagesPath": "C:\\Users\\nick\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkDir\\sports2000\\OpenEdge\\proxy\\sports2000crud\\StrongTypesNS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

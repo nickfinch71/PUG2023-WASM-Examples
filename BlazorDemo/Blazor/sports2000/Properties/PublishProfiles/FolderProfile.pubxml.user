@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Workdir\BlazorDemo\Blazor\sports2000\publish</_PublishTargetUrl>
+    <History>True|2022-10-12T13:52:16.5401211Z;True|2022-10-12T14:49:25.5641794+01:00;True|2022-10-12T14:48:54.5146282+01:00;True|2022-10-12T14:44:57.5120776+01:00;True|2022-10-12T14:41:29.9084459+01:00;True|2022-10-12T14:37:08.5588708+01:00;True|2022-10-12T14:32:28.6415467+01:00;True|2022-10-12T11:44:18.1026006+01:00;True|2021-11-04T10:04:06.4115657+00:00;True|2021-11-02T18:15:44.0253413+00:00;True|2021-11-02T12:21:32.4693837+00:00;True|2021-10-06T19:02:54.8175547+01:00;True|2021-10-06T19:00:47.3491765+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

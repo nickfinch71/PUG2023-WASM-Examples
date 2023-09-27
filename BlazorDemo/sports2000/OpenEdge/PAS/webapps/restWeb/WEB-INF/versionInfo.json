@@ -1,0 +1,1 @@
+{"version":"Thu Oct 28 17:09:53 UTC 2021","added":["\/WEB-INF\/openedge\/rwDepartmentHandler.r"],"updated":["\/WEB-INF\/openedge\/rwDepartmentHandler.cls"],"handlers":{"added":[{"name":"handler1","class":"restWebHandler","url":"\/restWeb"},{"name":"handler2","class":"rwEmployeeHandler","url":"\/employee"},{"name":"handler3","class":"rwDepartmentHandler","url":"\/department"}]}}

@@ -1,0 +1,91 @@
+2022-01-03T10:19:40.776Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@168d3fd3 to: org.apache.camel.support.SimpleTypeConverter@61bbb89c 
+2022-01-03T10:19:47.589Z WARN  [Catalina-utility-1] - c.p.appserv.adapters.rest.Management - Property file C:\WorkDir\sports2000\OpenEdge\PAS\webapps\restWeb/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2022-01-03T10:19:47.784Z WARN  [Catalina-utility-1] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2022-01-03T10:19:55.884Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@175baaf to: org.apache.camel.support.SimpleTypeConverter@8be49a9 
+2022-01-03T10:19:59.698Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2022-01-03T10:19:59.699Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2022-01-03T10:20:03.621Z ERROR [TjL0SvA8RR-d38Atk3hm8w-starter-0] - com.progress.O4gl.Trace -  
+com.progress.open4gl.broker.BrokerException: General Error: Connection refused: connect
+	at com.progress.ubroker.client.BrokerSystem.processConnect(BrokerSystem.java:1628)
+	at com.progress.ubroker.client.BrokerSystem.connect(BrokerSystem.java:415)
+	at com.progress.open4gl.dynamicapi.Session.connect(Session.java:224)
+	at com.progress.open4gl.dynamicapi.SessionPool$BrokerSessionList.reserveSession(SessionPool.java:596)
+	at com.progress.open4gl.dynamicapi.SessionPool.reserveSession(SessionPool.java:2690)
+	at com.progress.open4gl.dynamicapi.SessionPool.createSession(SessionPool.java:1838)
+	at com.progress.open4gl.dynamicapi.SessionPool.initializePool(SessionPool.java:2899)
+	at com.progress.open4gl.dynamicapi.SessionPool.<init>(SessionPool.java:1661)
+	at com.progress.open4gl.dynamicapi.SessionPool.createPool(SessionPool.java:1507)
+	at com.progress.open4gl.javaproxy.ProObject.<init>(ProObject.java:168)
+	at com.progress.open4gl.javaproxy.AppObject.<init>(AppObject.java:69)
+	at com.progress.open4gl.javaproxy.OpenAppObjectImpl.<init>(OpenAppObjectImpl.java:26)
+	at com.progress.open4gl.javaproxy.OpenAppObject.<init>(OpenAppObject.java:90)
+	at com.progress.appserv.broker.agent.TcpAgent.initAdminConnection(TcpAgent.java:2160)
+	at com.progress.appserv.broker.agent.TcpAgent.startAgent(TcpAgent.java:337)
+	at com.progress.appserv.broker.agent.TcpAgentPool$AgentStarter.call(TcpAgentPool.java:2585)
+	at com.progress.appserv.broker.agent.TcpAgentPool$AgentStarter.call(TcpAgentPool.java:2552)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:240)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at com.progress.ubroker.client.TcpClientProtocol.openConnection(TcpClientProtocol.java:416)
+	at com.progress.ubroker.client.BrokerSystem.processConnect(BrokerSystem.java:1571)
+	... 20 common frames omitted
+2022-01-03T10:20:05.660Z ERROR [TjL0SvA8RR-d38Atk3hm8w-starter-0] - com.progress.O4gl.Trace -  
+com.progress.open4gl.broker.BrokerException: General Error: Connection refused: connect
+	at com.progress.ubroker.client.BrokerSystem.processConnect(BrokerSystem.java:1628)
+	at com.progress.ubroker.client.BrokerSystem.connect(BrokerSystem.java:415)
+	at com.progress.open4gl.dynamicapi.Session.connect(Session.java:224)
+	at com.progress.open4gl.dynamicapi.SessionPool$BrokerSessionList.reserveSession(SessionPool.java:596)
+	at com.progress.open4gl.dynamicapi.SessionPool.reserveSession(SessionPool.java:2690)
+	at com.progress.open4gl.dynamicapi.SessionPool.createSession(SessionPool.java:1838)
+	at com.progress.open4gl.dynamicapi.SessionPool.initializePool(SessionPool.java:2899)
+	at com.progress.open4gl.dynamicapi.SessionPool.<init>(SessionPool.java:1661)
+	at com.progress.open4gl.dynamicapi.SessionPool.createPool(SessionPool.java:1507)
+	at com.progress.open4gl.javaproxy.ProObject.<init>(ProObject.java:168)
+	at com.progress.open4gl.javaproxy.AppObject.<init>(AppObject.java:69)
+	at com.progress.open4gl.javaproxy.OpenAppObjectImpl.<init>(OpenAppObjectImpl.java:26)
+	at com.progress.open4gl.javaproxy.OpenAppObject.<init>(OpenAppObject.java:90)
+	at com.progress.appserv.broker.agent.TcpAgent.initAdminConnection(TcpAgent.java:2160)
+	at com.progress.appserv.broker.agent.TcpAgent.startAgent(TcpAgent.java:337)
+	at com.progress.appserv.broker.agent.TcpAgentPool$AgentStarter.call(TcpAgentPool.java:2585)
+	at com.progress.appserv.broker.agent.TcpAgentPool$AgentStarter.call(TcpAgentPool.java:2552)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:240)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at com.progress.ubroker.client.TcpClientProtocol.openConnection(TcpClientProtocol.java:416)
+	at com.progress.ubroker.client.BrokerSystem.processConnect(BrokerSystem.java:1571)
+	... 20 common frames omitted
+2022-01-03T10:20:05.684Z ERROR [TjL0SvA8RR-d38Atk3hm8w-starter-0] - com.progress.appserv.PoolMgt.Agent - AgentStarter:call(TjL0SvA8RR-d38Atk3hm8w) : unexpected error in startup of agent _-CypZPvQ4OozdzdeV9d5Q for Catalina-utility-1 (com.progress.ubroker.util.NetworkProtocolException: A com.progress.open4gl.dynamicapi.SessionPool$NoAvailableSessionsException: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] network protocol error occured: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] (9996):A com.progress.open4gl.dynamicapi.SessionPool$NoAvailableSessionsException: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] network protocol error occured: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] (9996)) 
+2022-01-03T10:20:05.686Z ERROR [Catalina-utility-1] - com.progress.appserv.PoolMgt.Agent - startAgent(TjL0SvA8RR-d38Atk3hm8w) : startup of agent _-CypZPvQ4OozdzdeV9d5Q failed (java.util.concurrent.ExecutionException: com.progress.ubroker.util.NetworkProtocolException: A com.progress.open4gl.dynamicapi.SessionPool$NoAvailableSessionsException: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] network protocol error occured: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] (9996):com.progress.ubroker.util.NetworkProtocolException: A com.progress.open4gl.dynamicapi.SessionPool$NoAvailableSessionsException: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] network protocol error occured: SessionPool : NoAvailableSessions[Could not connect to the AppServer: General Error: Connection refused: connect. (7203)] (9996)) 
+2022-01-03T10:20:05.705Z ERROR [Catalina-utility-1] - com.progress.appserv.Agent - TcpAgentManager(TjL0SvA8RR-d38Atk3hm8w) : Error prestarting agent 0 = com.progress.appserv.broker.exception.BrokerException$NoAvailableAgentsException: Agent (18278) 
+2022-01-03T10:20:05.713Z WARN  [Catalina-utility-1] - c.p.appserv.IdleResourceWatchdog - Idle resource watchdog disabled 
+2022-01-03T10:20:08.420Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@1d7a8072 to: org.apache.camel.support.SimpleTypeConverter@42a2a757 
+2022-01-03T10:20:08.552Z WARN  [Catalina-utility-1] - c.p.appserv.adapters.rest.Management - Property file C:\WorkDir\sports2000\OpenEdge\PAS\webapps\ROOT/WEB-INF/adapters/rest/_oepingService/runtime.props not found - Using default properties 
+2022-01-03T10:20:08.558Z WARN  [Catalina-utility-1] - com.progress.caf.logging.CafLogging - Unable to create InputStream for resource "caflogging.properties". 
+2022-01-03T10:20:09.199Z WARN  [Catalina-utility-1] - o.a.c.i.c.CoreTypeConverterRegistry - Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@2526710e to: org.apache.camel.support.SimpleTypeConverter@7573d96a 
+2022-01-03T10:20:09.297Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 1 agent 
+2022-01-03T10:20:09.298Z WARN  [Catalina-utility-1] - com.progress.appserv.Prop - Development Server is limited to 5 concurrent requests 
+2022-01-03T10:20:10.341Z WARN  [Catalina-utility-1] - o.a.c.c.s.CamelHttpTransportServlet - Duplicate ServletName detected: CamelSOAPServlet. Existing: CamelHttpTransportServlet[name=CamelSOAPServlet] This: CamelHttpTransportServlet[name=CamelSOAPServlet]. Its advised to use unique ServletName per Camel application. 

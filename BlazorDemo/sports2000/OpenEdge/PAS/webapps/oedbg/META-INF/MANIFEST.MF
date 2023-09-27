@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Version: 12.4.0
+Implementation-Vendor: Progress Software
+Implementation-URL: http://www.progress.com
+Build-Timestamp: 2021-07-22T15:47:20.538-0400
+Implementation-Title: PAS for OpenEdge Debugger
+

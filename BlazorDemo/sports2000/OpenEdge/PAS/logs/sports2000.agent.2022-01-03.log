@@ -1,0 +1,22 @@
+2022-01-03T10:20:01.288+0000 004256 004288 1 AS-Aux-0 mtapsv:-:? MSAS Agent Starting Up -- Progress OpenEdge Release 12.4  build 1208.
+2022-01-03T10:20:01.288+0000 004256 004288 1 AS-Aux-0 mtapsv:-:? -- Logging level set to = 2
+2022-01-03T10:20:01.288+0000 004256 004288 1 AS-Aux-0 mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2022-01-03T10:20:01.288+0000 004256 004288 2 AS-Aux-0 mtapsv:-:? AS Starting MSAS Session for sports2000.
+2022-01-03T10:20:01.299+0000 004256 004288 2 AS-Aux-0 mtapsv:-:? AS MSAS Session Startup. (5473)
+2022-01-03T10:20:01.309+0000 004256 004288 1 AS-Listener mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2022-01-03T10:20:01.309+0000 004256 004288 2 AS-Listener mtapsv:-:? AS Starting MSAS Session for sports2000.
+2022-01-03T10:20:01.309+0000 004256 004288 2 AS-Listener mtapsv:-:? AS MSAS Session Startup. (5473)
+2022-01-03T10:20:01.312+0000 004256 004288 1 AS-Listener mtapsv:-:? MSAS Spawning New Worker Thread. Number: 4
+2022-01-03T10:20:01.318+0000 004256 006856 1 AS-ResourceMgr mtapsv:-:? -- Log entry types activated: ASPlumbing,DB.Connects
+2022-01-03T10:20:01.318+0000 004256 006856 2 AS-ResourceMgr mtapsv:-:? AS Starting MSAS Session for sports2000.
+2022-01-03T10:20:01.318+0000 004256 006856 2 AS-ResourceMgr mtapsv:-:? AS MSAS Session Startup. (5473)
+2022-01-03T10:20:01.390+0000 004256 006856 2 AS-ResourceMgr mtapsv:-:? MSAS Incremented connection count for sports2000 (sports2000): 1
+2022-01-03T10:20:01.390+0000 004256 006856 1 AS-ResourceMgr mtapsv:-:? -- There is no server for database C:\WorkDir\sports2000\OpenEdge\db\sports2000. (1423)
+2022-01-03T10:20:01.390+0000 004256 006856 1 AS-ResourceMgr mtapsv:-:? -- Error initialising the application server. (5479)
+2022-01-03T10:20:01.391+0000 004256 004288 1 AS-Listener mtapsv:-:? MSAS Resource Manager Initialization Failed -- Shutting down...
+2022-01-03T10:20:01.391+0000 004256 004288 1 AS-Listener mtapsv:-:? MSAS Agent Shutting Down. Status: -1005
+2022-01-03T10:20:01.391+0000 004256 005168 1 AS-Aux-0 mtapsv:-:? MSAS Worker Thread exiting. Number: 4, Status: -16
+2022-01-03T10:20:01.472+0000 004256 006856 2 AS-ResourceMgr mtapsv:-:? MSAS Disconnecting resource manager sports2000 (sports2000).
+2022-01-03T10:20:01.472+0000 004256 006856 1 AS-ResourceMgr mtapsv:-:? -- DISCONNECT:  Database sports2000 is unopen or unknown. (1009)
+2022-01-03T10:20:01.472+0000 004256 006856 2 AS-ResourceMgr mtapsv:-:? MSAS Removed connection sports2000 from session 2.
+2022-01-03T10:20:01.473+0000 004256 004288 1 AS-Listener mtapsv:-:? MSAS Agent Shutdown Complete.

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="abl.launchType">
+    <booleanAttribute key="abl.abl.REREAD_NO_LOCK" value="true"/>
+    <intAttribute key="abl.abl.STATEMENT_INPUT_CHARS" value="16000"/>
+    <intAttribute key="abl.abl.STATEMENT_TOKENS" value="4000"/>
+    <booleanAttribute key="abl.abl.USE_DEBUG_ALERT" value="true"/>
+    <booleanAttribute key="abl.client.HIDE_TTY" value="true"/>
+    <stringAttribute key="abl.client.PROVERSION" value="12.2"/>
+    <booleanAttribute key="abl.client.USE_TTY" value="true"/>
+    <booleanAttribute key="abl.databases.USE_PROJECT" value="true"/>
+    <stringAttribute key="abl.debug.ABL_PROGRAM" value="rwEmployeeHandler.cls"/>
+    <stringAttribute key="abl.debug.ATTR_ABL_PROJECT_NAME" value="restWeb"/>
+    <booleanAttribute key="abl.debug.GENERATE_LAUNCHER_PROGRAM" value="true"/>
+    <booleanAttribute key="abl.debug.PROPATH_USE_DEFAULT" value="true"/>
+    <stringAttribute key="abl.i18n.CASE_TABLE" value="Basic"/>
+    <stringAttribute key="abl.i18n.COLLATION_TABLE" value="Basic"/>
+    <stringAttribute key="abl.i18n.DATE_FORMAT" value="dmy"/>
+    <intAttribute key="abl.i18n.FRACTIONAL_SEP" value="46"/>
+    <stringAttribute key="abl.i18n.INTERNAL_CODE_PAGE" value="ISO8859-1"/>
+    <stringAttribute key="abl.i18n.STREAM_CODE_PAGE" value="ISO8859-1"/>
+    <intAttribute key="abl.i18n.THOUSANDS_SEP" value="44"/>
+    <intAttribute key="abl.performance.MAXIMUM_MEMORY" value="65534"/>
+    <intAttribute key="abl.performance.STACK_SIZE" value="200"/>
+    <stringAttribute key="abl.performance.TEMP_DIRECTORY" value="D:/OpenEdge/WRK"/>
+    <booleanAttribute key="abl.performance.USE_DEFALTS" value="false"/>
+    <booleanAttribute key="abl.startup.USE_PROJECT_AVM" value="false"/>
+    <stringAttribute key="abl.startup.WORKING_DIRECTORY" value="D:\Workdir\BlazorDemo\sports2000\OpenEdge\restWeb"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/restWeb/PASOEContent/WEB-INF/openedge/rwEmployeeHandler.cls"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.debug.core.capture_output" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="false"/>
+</launchConfiguration>

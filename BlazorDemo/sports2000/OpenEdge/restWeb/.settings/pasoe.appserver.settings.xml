@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="12.2">
+    <module id="aa8ef1f6-39d3-4780-ba35-f2d24a819caa" name="restWeb">
+        <resource path="AppServer" publish="true"/>
+    </module>
+</module-content>

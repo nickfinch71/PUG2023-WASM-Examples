@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishHistory xmlns="urn:/progress/openedge/WebspeedPublishHistory/v1">
+    <service name="EmployeeService">
+        <server id="sports2000 in blazordemo.sports2000 (Progress Application Server for OpenEdge 12.4)">
+            <handler name="rwEmployeeHandler">/employee</handler>
+        </server>
+    </service>
+    <service name="DepartmentService">
+        <server id="sports2000 in blazordemo.sports2000 (Progress Application Server for OpenEdge 12.4)">
+            <handler name="rwDepartmentHandler">/department</handler>
+        </server>
+    </service>
+</publishHistory>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <OutputType>Library</OutputType>
+    <PlatformTarget>anycpu</PlatformTarget>
+  </PropertyGroup>
+
+<ItemGroup>
+    <Compile Include = "sports2000proxy\customerCRUD.cs;sports2000proxy\sports2000.cs;sports2000proxy\AssemblyInfo.cs"/>
+</ItemGroup>
+
+<ItemGroup>
+	<Reference Include="Progress.o4glrt">
+    </Reference>
+    <Reference Include="Progress.Messages">
+    </Reference>	
+	<PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7" />	
+</ItemGroup> 
+
+</Project>

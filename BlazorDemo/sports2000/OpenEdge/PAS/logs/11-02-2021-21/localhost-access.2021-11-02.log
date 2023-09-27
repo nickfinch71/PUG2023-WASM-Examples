@@ -1,0 +1,3 @@
+127.0.0.1 - - [2021-11-02T16:58:07.226Z] "GET /manager/text/list HTTP/1.1" 200 - - 
+127.0.0.1 - - [2021-11-02T16:58:07.253Z] "GET /manager/text/list HTTP/1.1" 200 - - 
+127.0.0.1 - - [2021-11-02T17:02:07.260Z] "GET /manager/text/list HTTP/1.1" 200 - - 

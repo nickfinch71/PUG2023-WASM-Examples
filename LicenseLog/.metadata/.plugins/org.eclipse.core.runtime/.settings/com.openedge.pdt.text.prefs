@@ -1,0 +1,13 @@
+addBlockLevelStmt=true
+addErrorhandling=true
+eclipse.preferences.version=1
+not.first.run=true
+preferences.migrated=12.2
+sort.database=8
+sort.ds=3
+sort.glblvar=2
+sort.keywords=7
+sort.macro=6
+sort.prgrmStructure=4
+sort.superprocedures=5
+sort.var=1

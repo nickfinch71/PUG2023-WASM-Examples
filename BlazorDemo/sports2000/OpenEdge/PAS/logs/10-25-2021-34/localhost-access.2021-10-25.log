@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - anonymousUser [2021-10-25T17:53:54.285Z] "GET /restWeb/web/employee HTTP/1.1" 200 - restWeb:w:00000001 
+0:0:0:0:0:0:0:1 - anonymousUser [2021-10-25T17:53:54.516Z] "GET /favicon.ico HTTP/1.1" 200 370070 ROOT:f:00000001 
+127.0.0.1 - - [2021-10-25T18:03:30.490Z] "GET /manager/text/list HTTP/1.1" 200 - - 
+127.0.0.1 - - [2021-10-25T18:03:30.488Z] "GET /manager/text/list HTTP/1.1" 200 - - 

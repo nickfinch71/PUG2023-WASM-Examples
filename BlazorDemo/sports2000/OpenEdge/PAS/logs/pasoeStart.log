@@ -1,0 +1,15 @@
+
+Using CATALINA_BASE:   "C:\WorkDir\SPORTS~1\OpenEdge\PAS"
+Using CATALINA_HOME:   "C:\Progress\OpenEdge\servers\pasoe"
+Using CATALINA_TMPDIR: "C:\WorkDir\SPORTS~1\OpenEdge\PAS\temp"
+Using JRE_HOME:        "C:/PROGRA~1/Java/JDK-11~1.4"
+Using CLASSPATH:       ";C:\Progress\OpenEdge\servers\pasoe\bin\bootstrap.jar;C:\Progress\OpenEdge\servers\pasoe\bin\tomcat-juli.jar;C:\Progress\OpenEdge\servers\pasoe\bin\tomcat-juli.jar"
+PAS started with process IDs: 6984
+The PASOE instance encountered errors during startup - stopping instance
+Using CATALINA_BASE:   C:\WorkDir\SPORTS~1\OpenEdge\PAS
+Using CATALINA_HOME:   C:\Progress\OpenEdge\servers\pasoe
+Using CATALINA_TMPDIR: C:\WorkDir\SPORTS~1\OpenEdge\PAS\temp
+Using JAVA_HOME:       C:/PROGRA~1/Java/JDK-11~1.4
+
+No shutdown port configured : attempting to stop using Window process-id.
+PAS was stopped
